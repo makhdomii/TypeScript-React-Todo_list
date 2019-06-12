@@ -1,0 +1,53 @@
+@import "bootstrap/scss/bootstrap.scss";
+@import "./loading.scss";
+
+// .App {
+//   width: 100%;
+//   margin: 0 auto;
+// }
+
+.head {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  width: 100%;
+}
+
+.draggable {
+  width: 100%;
+  background-color: yellow;
+  margin: 10px auto;
+  &:focus {
+    outline: none;
+  }
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-radial-gradient(left, #ffae00, transparent), -webkit-radial-gradient(right, #2581cc, transparent),
+    -webkit-radial-gradient(bottom, #a7368a, transparent);
+}
+.group-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.drag-container {
+  text-align: center;
+  border: 20px solid rgba(200, 200, 200, 0.3);
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  .droppable {
+    height: calc(100vh - 200px);
+    overflow-y: auto;
+    background-color: rgba(100, 100, 100, 0.3);
+    border-right: 3px solid rgba(255, 255, 255, 0.3);
+  }
+  :nth-child(4) {
+    border-right: none;
+  }
+}
