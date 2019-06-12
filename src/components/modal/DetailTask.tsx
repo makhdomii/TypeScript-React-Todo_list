@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Form, FormGroup, Label, Input, Button, Modal, ModalHeader, ModalBody, ModalFooter, Row } from 'reactstrap';
+import { Form, FormGroup, Label, Input, Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import API from '../../services/Api';
 
 export interface IDetailTaskProps {
