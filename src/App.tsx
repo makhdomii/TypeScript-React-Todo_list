@@ -7,9 +7,6 @@ import TaskList from './components/taskList/TaskList';
 import { CreateTask } from './components/createTask/CreateTask';
 import API from './services/Api';
 
-export interface IAppProps {
-}
-
 export interface IAppState {
   tasks: any;
   modal: boolean;
@@ -17,8 +14,8 @@ export interface IAppState {
   loading: boolean;
 }
 
-export default class App extends React.Component<IAppProps, IAppState> {
-  constructor(props: IAppProps) {
+export default class App extends React.Component<any, IAppState> {
+  constructor(props: any) {
     super(props);
     this.state = {
       tasks: [],
