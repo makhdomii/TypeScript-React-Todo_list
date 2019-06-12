@@ -1,4 +1,4 @@
-This is Drag&Drop Todo List project using TypeScript / React / Sass and also [my NodeJs backend](https://github.com/makhdomii/nodejs_Todo_list_backend) which is already run. Therefore, you just need to run project.
+This is Drag&Drop Todo List project using TypeScript / React / Sass and also [my Node.js backend](https://github.com/makhdomii/nodejs_Todo_list_backend) which is already run. Therefore, you just need to run project.
 
 ## Installation :
 
@@ -11,6 +11,7 @@ for run project in [http://localhost:3000](http://localhost:3000) :
 
 ## In progress :
 
+- [x] Create React app using npx
 - [x] Add TypeScript
 - [x] Add Sass
 - [ ] Add Redux
